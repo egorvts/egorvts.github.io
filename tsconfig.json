@@ -19,9 +19,17 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      "@/covers/*": ["./src/components/ProjectCovers/*"]
+      "@/covers/*": ["./src/components/ProjectCovers/*"],
+      "@/public": ["./public"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/ProjectCovers/Domme.jsx", "src/components/ProjectCovers/PVC.jsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/components/ProjectCovers/Domme.jsx",
+    "src/components/ProjectCovers/PVC.jsx"
+  ],
   "exclude": ["node_modules"]
 }

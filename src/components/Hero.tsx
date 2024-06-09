@@ -2,7 +2,7 @@
 
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Button } from "./ui/button";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 
 const Hero = () => {
   const ref = useRef<HTMLDivElement>(null);
@@ -20,7 +20,7 @@ const Hero = () => {
 
   const cornerRadiusProgress = useTransform(
     scrollYProgress,
-    [0, 0.001],
+    [0, 0.01],
     [0, 40]
   );
 

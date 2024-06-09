@@ -5,4 +5,5 @@ const Project = ({ svg }: { svg: JSX.Element }) => {
     </div>
   );
 };
+
 export default Project;
