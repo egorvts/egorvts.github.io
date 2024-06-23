@@ -10,10 +10,10 @@ export default function Home() {
     <main className="bg-[#E5E5E5] flex flex-col gap-4">
       <Hero />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mx-4">
-        <Project svg={Domme()} />
-        <Project svg={PVC()} />
+        <Project svg={Domme()} link="/domme" />
+        <Project svg={PVC()} link="/pvc" />
         <div className="md:col-span-2">
-          <Project svg={Renta()} />
+          <Project svg={Renta()} link="/renta" />
         </div>
       </div>
       <p className="text-xs text-center mb-4 text-black/50">
