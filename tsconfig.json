@@ -20,7 +20,7 @@
     "paths": {
       "@/*": ["./src/*"],
       "@/covers/*": ["./src/components/ProjectCovers/*"],
-      "@/public": ["./public"]
+      "@/public/*": ["./public/*"]
     }
   },
   "include": [
