@@ -25,12 +25,6 @@ export default function Home() {
       </div>
       <p className="text-xs text-center mb-4 text-black/50">
         Copyright © 2024 Egor Vetoshkin. All rights reserved.
-        <br />
-        You are prohibited from copying, modifying, redistributing,
-        rebroadcasting, or re-encoding this content
-        <br />
-        without prior written permission from copyright holder, except as may be
-        permitted by law.
       </p>
     </main>
   );
