@@ -44,7 +44,7 @@ const Hero = () => {
         <h2 className="text-[24px] md:text-[48px] md:leading-[52px] font-medium">
           Hi, I'm Egor
         </h2>
-        <h1 className="text-[48px] leading-[48px] md:text-[96px] md:leading-[96px] font-medium">
+        <h1 className="text-[44px] leading-[44px] md:text-[96px] md:leading-[96px] font-medium">
           UI/UX Designer <br /> and Developer
         </h1>
       </div>
