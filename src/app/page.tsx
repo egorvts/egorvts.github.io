@@ -17,10 +17,10 @@ export default function Home() {
     <main className="bg-[#E5E5E5] flex flex-col gap-4">
       <Hero />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mx-4">
-        <Project cover={DommeCover} link="/Domme" img={Domme} />
-        <Project cover={PVCCover} link="/PVC" img={PVC} />
+        <Project cover={DommeCover} link="/Domme/" img={Domme} />
+        <Project cover={PVCCover} link="/PVC/" img={PVC} />
         <div className="md:col-span-2">
-          <Project cover={RentaCover} link="/Renta" img={Renta} />
+          <Project cover={RentaCover} link="/Renta/" img={Renta} />
         </div>
       </div>
       <p className="text-xs text-center mb-4 text-black/50">
