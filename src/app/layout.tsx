@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const viewport: Viewport = {
-  themeColor: "#386EDB",
+  themeColor: "#8A38DB",
 };
 
 export const metadata: Metadata = {

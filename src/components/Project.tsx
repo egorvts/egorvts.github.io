@@ -14,15 +14,13 @@ const Project = ({
     <Link href={link}>
       <div className="group w-full h-[680px] rounded-[40px] overflow-hidden cursor-[url(./../../public/eyes.png),_pointer] transition-all">
         <Image
-          className="group-hover:hidden w-full h-[680px] object-cover object-top"
+          className="transition-all group-hover:opacity-50 w-full h-[680px] object-cover object-top"
           src={cover}
           alt={"Project Cover"}
         />
-        <Image
-          className="hidden group-hover:flex w-full h-[680px] object-cover object-top"
-          src={img}
-          alt={"Project Image"}
-        />
+        <div className="z-10 bg-white/40">
+          <h2 className="text-[#25AD85]">UI/UX + Frontend</h2>
+        </div>
       </div>
     </Link>
   );
