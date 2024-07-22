@@ -24,7 +24,7 @@ export default function Home() {
         </div>
       </div>
       <p className="text-xs text-center mb-4 text-black/50">
-        Copyright © 2024 Egor Vetoshkin. All rights reserved.
+        Copyright © 2024 <a href="https://github.com/egorvts">Egor Vetoshkin</a>. All rights reserved.
       </p>
     </main>
   );

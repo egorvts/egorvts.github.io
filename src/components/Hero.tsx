@@ -38,7 +38,7 @@ const Hero = () => {
         borderRadius: cornerRadiusProgress,
       }}
       ref={ref}
-      className="relative w-screen h-[100dvh] p-4 m-auto text-center flex flex-col justify-between md:justify-center gap-12 bg-gradient-to-b from-[#8A38DB] to-[#D9BDF4] text-white/80 transition-all"
+      className="relative w-screen h-[100dvh] p-4 m-auto text-center flex flex-col justify-between md:justify-center gap-12 bg-gradient-to-b from-[#8A38DB] to-[#C59CEE] text-white/80 transition-all"
     >
       <div className="flex flex-col md:gap-2 my-auto">
         <h2 className="text-[24px] md:text-[48px] md:leading-[52px] font-medium">
