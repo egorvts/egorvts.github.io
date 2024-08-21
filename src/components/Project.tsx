@@ -2,16 +2,15 @@ import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
 const Project = ({
-  img,
-  cover,
   link,
+  cover,
 }: {
-  img: StaticImageData;
+  link: string,
   cover: StaticImageData;
-  link: string;
-}) => {
+  }) => {
+  
   return (
-    <Link href={link}>
+    <Link href={link} passHref={true}>
       <div className="group w-full h-[680px] rounded-[40px] overflow-hidden cursor-[url(./../../public/eyes.png),_pointer] transition-all">
         <Image
           className="transition-all group-hover:opacity-50 w-full h-[680px] object-cover object-top"
